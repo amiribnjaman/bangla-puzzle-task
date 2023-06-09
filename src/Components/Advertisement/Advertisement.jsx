@@ -7,7 +7,7 @@ export default function advertisement() {
             <div className='md:w-[65%] md:ml-4'>
                 {/* Heading */}
                 <div>
-                    <h1 className=' text-[52px] font-bold mb-1 leading-tight'>Advertise</h1>
+                    <h1 className=' text-[52px] font-bold mb-1 leading-tight'>Advertisement</h1>
                     <p className='my-4'>Our audience age is 20-35 Year.</p>
                     <p className='my-4'>We focus on Career related content.</p>
 
