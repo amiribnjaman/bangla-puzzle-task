@@ -33,18 +33,18 @@ export default function Navbar() {
                                 </CustomLink>
                             </li>
                             <li className='px-1 py-2'>
-                                <CustomLink to="" class="flex font-bold py-2 pl-2 text-md pr-2 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-red-600 md:p-0 dark:text-blue-500 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">About Us
+                                <CustomLink to="/about/us" class="flex font-bold py-2 pl-2 text-md pr-2 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-red-600 md:p-0 dark:text-blue-500 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700" aria-current="page">About Us
                                 
                                 </CustomLink>
                             </li>
                             <li className='px-1 py-2'>
-                                <CustomLink to="" class=" font-bold block py-2 pl-2 text-md pr-2 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-red-600 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Contact Us</CustomLink>
+                                <CustomLink to="/contact/us" class=" font-bold block py-2 pl-2 text-md pr-2 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-red-600 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Contact Us</CustomLink>
                             </li>
                             <li className='px-1 py-2'>
-                                <CustomLink to="" class="block font-bold py-2 pl-2 text-md pr-2 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-red-600 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Advertise</CustomLink>
+                                <CustomLink to="/advertisement" class="block font-bold py-2 pl-2 text-md pr-2 text-black border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-red-600 md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Advertise</CustomLink>
                             </li>
-                            <li className='bg-red-600 border-0 rounded hover:bg-white hover:border-white px-3 pt-1.5 pb-2 '>
-                                <Link to="" class="block pl-2 text-md bg-red-600 text-white font-normal text-[17px] hover:bg-white md:hover:bg-transparent md:border-0 md:hover:text-black md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Join Now</Link>
+                            <li className='bg-red-600 border-0 rounded hover:bg-red-700 hover:border-white px-3 pt-1.5 pb-2 '>
+                                <Link to="/ " class="block pl-2 text-md bg-red-600 text-white font-normal text-[17px] md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 dark:text-black md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700">Join Now</Link>
                             </li>
                         </ul>
                     </div>

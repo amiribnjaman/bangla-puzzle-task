@@ -8,7 +8,8 @@ export default function PrivacyPolicy() {
                 {/* Heading */}
                 <div>
                     <h1 className=' text-[52px] font-bold mb-1 leading-tight'>Terms And Condition</h1>
-                    <p className='mt-2'>Effective date: April 04, 2023. Bangla Puzzle Limited ("us", "we", or "our") operates the www.deshcareer.com website (the "Service"). This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. Our Privacy Policy for Desh Career is created.
+                    <h6 className='my-4'>Effective date: April 04, 2023.</h6>
+                    <p className='mt-2'>Bangla Puzzle Limited ("us", "we", or "our") operates the www.deshcareer.com website (the "Service"). This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data. Our Privacy Policy for Desh Career is created.
                     </p>
                     <p className='mt-5'>
                         We use your data to provide and improve the Service. By using the Service, you agree to this policy's collection and use of information. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from</p>
