@@ -8,7 +8,7 @@ export default function Footer() {
             <footer class="bg-[#0F0D32] static bottom-0 dark:bg-gray-900">
                 <div class="w-[90%] items-center mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                     {/* Footer top social media icons */}
-                    <div class="my-10 text-center md:mb-0 flex w-full items-center">
+                    <div class="md:my-10 my-6 text-center md:mb-0 flex w-full items-center">
                         <div className='flex w-[10] mx-auto md:space-x-3'>
                             <div className='border border-gray-100 px-[5px] rounded-md'>
                                 <a href="">
@@ -32,16 +32,16 @@ export default function Footer() {
                     {/* Footer middle section */}
                     <div class="md:flex md:justify-between mt-10">
                         <div className='md:w-1/3 '>
-                            <div className='w-[195px] h-[83px] mr-[2px]'>
+                            <div className='md:w-[195px] w-full h-[90px] md:h-[83px] mr-[2px]'>
                                 <img className='w-full h-full' src={Logo} alt='' />
                             </div>
                             <p className='text-gray-400 mt-3 text-[16px] md:w-[92%]'>
                                 Desh Career is Career based newsletter in Bengali language. This newsletter has published weekly. This is published in every Saturday at 12.00 PM.
                             </p>
                         </div>
-                        <div className='md:w-1/3 mx-auto text-center mt-6'>
-                            <h2 class="mb-9 text-2xl font-normal text-gray-200  dark:text-white">Privacy and Terms</h2>
-                            <ul class="text-gray-400 dark:text-gray-400 font-normal mt-8">
+                        <div className='md:w-1/3 mx-auto text-center mt-12 md:mt-6'>
+                            <h2 class="md:mb-9 mb-3 text-2xl font-normal text-gray-200  dark:text-white">Privacy and Terms</h2>
+                            <ul class="text-gray-400 dark:text-gray-400 font-normal md:mt-8 mt-4">
                                 <li class="">
                                     <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Pravacy policy</a>
                                 </li>
@@ -53,9 +53,9 @@ export default function Footer() {
                                 </li>
                             </ul>
                         </div>
-                        <div className='md:w-1/3 mx-auto text-right mt-6'>
-                            <h2 class="mb-9 text-2xl font-normal text-gray-200  dark:text-white">Support</h2>
-                            <ul class="text-gray-400 dark:text-gray-400 font-normal mt-8">
+                        <div className='md:w-1/3 mx-auto text-center md:text-right md:mt-6 mt-8'>
+                            <h2 class="md:mb-9 mb-3 text-2xl font-normal text-gray-200  dark:text-white">Support</h2>
+                            <ul class="text-gray-400 dark:text-gray-400 font-normal md:mt-8 mt-4">
                                 <li class="">
                                     <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Affaliate Link</a>
                                 </li>
@@ -74,10 +74,10 @@ export default function Footer() {
                     <hr class="mt-7 mb-2 border-gray-200 sm:mx-auto dark:border-gray-700" />
 
                     {/* Footer copyright section */}
-                    <div class="flex sm:items-center sm:justify-between">
+                    <div class="text-center md:flex sm:items-center sm:justify-between">
                         <span class="text-sm text-gray-200 sm:text-center dark:text-gray-400">&copy; 2023 Newsletter E-mail Service: All Copy right reserved </span>
-                        <div>
-                            <ul class="flex space-x-2 md:space-x-4 text-gray-200 dark:text-gray-400 font-normal">
+                        <div className=''>
+                            <ul class="ml-[18%] md:ml-0 flex space-x-2 md:space-x-4 text-gray-200 dark:text-gray-400 font-normal">
                                 <li class=" text-sm">
                                     <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Terms</a>
                                 </li>
