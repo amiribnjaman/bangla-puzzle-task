@@ -5,7 +5,7 @@ import CustomLink from '../CustomComonents/CustomLink';
 
 
 export default function Navbar() {
-    const [showMenu, setShowMenu] = useState(false)
+    const [showMenu, setShowMenu] = useState(true)
 
     return (
         <div>

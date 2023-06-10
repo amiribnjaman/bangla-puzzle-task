@@ -1,5 +1,8 @@
 import React from 'react'
 import Logo from '../../Assets/Images/logo.png'
+import CustomLink from '../CustomComonents/CustomLink'
+import { Link } from 'react-router-dom';
+
 
 export default function Footer() {
     return (
@@ -22,7 +25,7 @@ export default function Footer() {
                             </div>
                             <div className='border border-gray-100 px-[6px] rounded-md'>
                                 <a href="">
-                                <svg class="w-5 h-5 text-gray-300 hover:text-gray-400"  xmlns="http://www.w3.org/2000/svg"  fill="currentColor" height="1em" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"/></svg>
+                                    <svg class="w-5 h-5 text-gray-300 hover:text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="currentColor" height="1em" viewBox="0 0 448 512"><path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" /></svg>
                                 </a>
                             </div>
                         </div>
@@ -33,7 +36,9 @@ export default function Footer() {
                     <div class="md:flex md:justify-between mt-10">
                         <div className='md:w-1/3 '>
                             <div className='md:w-[195px] w-full h-[90px] md:h-[83px] mr-[2px]'>
-                                <img className='w-full h-full' src={Logo} alt='' />
+                                <Link to='/'>
+                                    <img className='w-full h-full' src={Logo} alt='' />
+                                </Link>
                             </div>
                             <p className='text-gray-400 mt-3 text-[16px] md:w-[92%] text-center md:text-left'>
                                 Desh Career is Career based newsletter in Bengali language. This newsletter has published weekly. This is published in every Saturday at 12.00 PM.
@@ -43,13 +48,13 @@ export default function Footer() {
                             <h2 class="md:mb-9 mb-3 text-2xl font-normal text-gray-200  dark:text-white">Privacy and Terms</h2>
                             <ul class="text-gray-400 dark:text-gray-400 font-normal md:mt-8 mt-4">
                                 <li class="">
-                                    <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Pravacy policy</a>
+                                    <Link to='/privacy/policy' class="hover:underline ">Privacy policy</Link>
                                 </li>
                                 <li className='mt-1'>
-                                    <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Terms and condition</a>
+                                    <Link to='/terms/condition' class="hover:underline">Terms and condition</Link>
                                 </li>
                                 <li className='mt-1'>
-                                    <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">FAQ</a>
+                                    <Link to='/faq' class="hover:underline">FAQ</Link>
                                 </li>
                             </ul>
                         </div>
@@ -57,13 +62,13 @@ export default function Footer() {
                             <h2 class="md:mb-9 mb-3 text-2xl font-normal text-gray-200  dark:text-white">Support</h2>
                             <ul class="text-gray-400 dark:text-gray-400 font-normal md:mt-8 mt-4">
                                 <li class="">
-                                    <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Affaliate Link</a>
+                                    <Link to='/affiliate' class="hover:underline ">Affaliate Link</Link>
                                 </li>
                                 <li className='mt-1'>
-                                    <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Contact us</a>
+                                    <Link to='/contact/us' class="hover:underline">Contact us</Link>
                                 </li>
                                 <li className='mt-1'>
-                                    <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Advertise us</a>
+                                    <Link to='/advertisement' class="hover:underline">Advertise us</Link>
                                 </li>
                             </ul>
                         </div>
@@ -79,16 +84,16 @@ export default function Footer() {
                         <div className=''>
                             <ul class="ml-[18%] md:ml-0 flex space-x-2 md:space-x-4 text-gray-200 dark:text-gray-400 font-normal">
                                 <li class=" text-sm">
-                                    <a href="https://github.com/themesberg/flowbite" class="hover:underline ">Terms</a>
+                                    <Link to='/terms/condition' class="hover:underline ">Terms</Link>
                                 </li>
                                 <li className='text-sm'>
-                                    <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Cokie policy</a>
+                                    <Link to='/affiliate' class="hover:underline">Cokie policy</Link>
                                 </li>
                                 <li className='text-sm'>
-                                    <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">FAQ</a>
+                                    <Link to='/faq' class="hover:underline">FAQ</Link>
                                 </li>
                                 <li className='text-sm'>
-                                    <a href="https://discord.gg/4eeurUVvTy" class="hover:underline">Privacy</a>
+                                    <Link to='/privacy/policy' class="hover:underline">Privacy</Link>
                                 </li>
                             </ul>
                         </div>

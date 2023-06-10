@@ -10,6 +10,9 @@ import TermsCondition from './Components/TermsCondition/TermsCondition';
 import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
 import Advertisement from './Components/Advertisement/Advertisement';
+import Faq from './Components/Faq/Faq';
+import Affaliate from './Components/Affiliate/Affiliate';
+import NotFound from './Components/NotFound/NotFound';
 
 
 function App() {
@@ -23,6 +26,9 @@ function App() {
         <Route path='/about/us' element={<About />} />
         <Route path='/contact/us' element={<Contact />} />
         <Route path='/advertisement' element={<Advertisement />} />
+        <Route path='/faq' element={<Faq />} />
+        <Route path='/affiliate' element={<Affaliate />} />
+        <Route path='/*' element={<NotFound />} />
       </Routes>
       <Footer />
     </div>
