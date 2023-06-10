@@ -13,7 +13,7 @@ export default function TermsCondition() {
                     </p>
                     <p className='mt-5'>
                         We use your data to provide and improve the Service. By using the Service, you agree to this policy's collection and use of information. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible from</p>
-                    <a className='mt-3 text-blue-700 bg-[#ECF0F1] underline' href='https://deshcareer.com/' rel='' target='_blank'>www.deshcareer.com</a>
+                    <a className='mt-3 text-blue-700 bg-[#ECF0F1] underline' href='https://deshcareer.com/' target='_blank'>www.deshcareer.com</a>
                 </div>
 
                 {/* Information collection and use */}
