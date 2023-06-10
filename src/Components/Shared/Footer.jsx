@@ -31,7 +31,6 @@ export default function Footer() {
                         </div>
                     </div>
 
-
                     {/* Footer middle section */}
                     <div class="md:flex md:justify-between mt-10">
                         <div className='md:w-1/3 '>
@@ -74,15 +73,13 @@ export default function Footer() {
                         </div>
                     </div>
 
-
-
                     <hr class="mt-7 mb-2 border-gray-200 sm:mx-auto dark:border-gray-700" />
 
                     {/* Footer copyright section */}
                     <div class="text-center md:flex sm:items-center sm:justify-between">
                         <span class="text-sm text-gray-200 sm:text-center dark:text-gray-400">&copy; 2023 Newsletter E-mail Service: All Copy right reserved </span>
                         <div className=''>
-                            <ul class="ml-[18%] md:ml-0 flex space-x-2 md:space-x-4 text-gray-200 dark:text-gray-400 font-normal">
+                            <ul class="ml-[16%] mt-2 md:mt-0 md:ml-0 flex space-x-2 md:space-x-4 text-gray-200 dark:text-gray-400 font-normal">
                                 <li class=" text-sm">
                                     <Link to='/terms/condition' class="hover:underline ">Terms</Link>
                                 </li>

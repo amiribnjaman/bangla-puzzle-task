@@ -4,7 +4,6 @@ export default function PrivacyPolicy() {
     return (
         <div className='w-[90%] mx-auto my-12'>
             <div className='md:w-[65%] md:ml-4'>
-
                 {/* Heading */}
                 <div>
                     <h1 className=' text-[52px] font-bold mb-1 leading-tight'>Privacy Policy</h1>

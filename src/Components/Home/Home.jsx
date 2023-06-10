@@ -8,7 +8,6 @@ export default function Home() {
         <h6 className='text-[16px]'>Get the <span className='font-bold'>5-minute newsletter</span> keeping about smart career</h6>
 
         {/* Email field */}
-
         <div className='mt-7'>
         <form>
           <label for="email" class="mb-2 text-md font-medium text-gray-900 sr-only dark:text-white">Your Email</label>
@@ -27,8 +26,6 @@ export default function Home() {
         <p className='text-[16px] leading-loose'>We're committed to your privacy. DashCareer uses the information you provide to contact you about our relevant content and services. You may unsubscribe from these communications at any time. For more information, check out our Privacy Policy.</p>
         </div>
       </div>
-
-
     </div>
   )
 }

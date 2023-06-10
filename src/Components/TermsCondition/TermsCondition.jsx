@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function PrivacyPolicy() {
+export default function TermsCondition() {
     return (
         <div className='w-[90%] mx-auto my-12'>
             <div className='md:w-[65%] md:ml-4'>
