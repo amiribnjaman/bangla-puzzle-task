@@ -6,6 +6,7 @@ export default function Contact() {
         <div className='w-[90%] mx-auto my-12 '>
 
             <h1 className=' text-[52px] font-bold mb-1 leading-tight ml-2'>Contact Us</h1>
+            {/* Left side main content */}
             <div className='md:flex'>
             <div className='md:w-[65%] md:ml-4'>
                 {/* Heading */}
@@ -23,6 +24,8 @@ export default function Contact() {
                     </ul>
                 </div>
             </div>
+
+            {/* Contact form */}
             <div className='md:w-[70%] mt-14 md:mt-0 md:ml-auto'>
                 <h3 className='text-2xl font-semibold mb-4'>You can directly message us.</h3>
                 <form>
